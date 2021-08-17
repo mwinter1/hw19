@@ -1,0 +1,27 @@
+{
+  "name": "hw19",
+  "version": "1.0.0",
+  "description": "Unit 19 PWA Homework: Online/Offline Budget Trackers Add functionality to our existing Budget Tracker application to allow for offline access and functionality. The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online. Offline Functionality:",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwinter1/hw19.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mwinter1/hw19/issues"
+  },
+  "homepage": "https://github.com/mwinter1/hw19#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "lite-server": "^2.6.1",
+    "mongoose": "^5.13.7",
+    "morgan": "^1.10.0"
+  }
+}
